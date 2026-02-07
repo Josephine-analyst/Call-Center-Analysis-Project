@@ -6,9 +6,21 @@
    operational costs. By analyzing key performance metrics, customer interactions and agent performance, the project will provide actionable insights
    to drive data-informed decision-making.
 
-### SOFTWARE USED
-    * Excel
-    * Power Bi
+### BUSINESS OBJECTIVES
+    Transform raw call center data into actionable insights to:
+    - Optimize agent workload distribution
+    - Improve first-contact resolution rates
+    - Increase overall customer satisfaction
+    - Identify training needs and peak call patterns
+    - Reduce operational costs through better resource planning
+
+### TECHNOLOGY & TOOLS USED
+    - **Data Source** — Excel (.xlsx)
+    - **Data Transformation** — Power Query
+    - **Modeling** — DAX (measures + calculated date table)
+    - **Visualization** — Power BI Desktop
+    - **Interactivity** — Slicers (Agent, Month)
+
 
 ### STEPS FOLLOWED:
     * Step 1: Load data into power bi desktop, dataset is an xlsx file.
@@ -37,6 +49,18 @@
     * Step 11: RESOLVED CALLS = COUNTROWS(FILTER('Sheet1','Sheet1'[Resolved]="Y"))
 
     * Step 12: UNRESOLVED CALLS = COUNTROWS(FILTER('Sheet1','Sheet1'[Resolved]="N"))
+
+## 🔍 Key Metrics & Visuals
+
+| Metric                        | Visualization Type       | Business Question Answered                              |
+|-------------------------------|--------------------------|------------------------------------------------------------------|
+| Total Calls Received          | KPI Card                 | What is the overall call volume?                                 |
+| Calls per Agent               | Stacked Bar              | Who handles the most calls? (Workload balance)                   |
+| CSAT by Agent                 | Clustered Bar            | Which agents deliver the best customer experience?               |
+| Most Common Call Issues       | Stacked Column           | What are customers calling about most often?                     |
+| Common Issues per Day         | Stacked Bar              | Are certain issues spiking on specific days?                     |
+| Resolution Rate by Issue      | Donut                    | Which issue types are resolved most/least effectively?           |
+| Calls per Month / per Day     | Line                     | What are the seasonal / daily patterns?                          |
 
 ### VISUALIZATION
     * Step 13: Most Common Call Issues Per Day <Stacked Bar Chart>
@@ -81,17 +105,41 @@
     3. Resize and format the slicers to control user interactions.
 
 ### KEY INSIGHTS
-    * Agent workload distribution affects productivity
-        Agent Jim handled the most calls(536) followed by Agent Dan(523) and Agent Becky(517), balance workload to avoid over-burdening agents like
-        Agent Jim and Agent Dan most especially on  high-volumn days.
-  
-    * Customer Satisfaction by Agents
-        Agent Jim has the highest CSAT(1819), followed by Agent Dan(1803), Agent Joe lower CSAT may tie to handling more technical issues.
-        Pair Agent Joe with simpler issues or provide technical training to improve satisfaction.
+    1. **Workload Imbalance**  
+         Agent **Jim** handled the highest volume (536 calls), followed closely by **Dan** (523) and **Becky** (517).  
+         → Consider redistributing high-volume shifts or adding support staff.
+
+    2. **CSAT Performance**  
+         - **Jim** → highest total CSAT score (1819)  
+         - **Joe** → noticeably lower satisfaction → likely due to higher share of technical issues  
+         → Recommendation: Targeted technical training for Joe + route simpler issues to him temporarily.
+
+    3. **Top Call Drivers**  
+         Technical Support and Payment Issues dominate → highest volume and mixed resolution rates.  
+         → Process/documentation improvements in these areas could yield quick wins.
+
+    4. **Resolution Effectiveness**  
+         Significant variation by issue type — some categories show < 60% first-contact resolution.  
+         → Prioritize root-cause analysis on low-resolution issues.
+
+   ## 🚀 How to Explore the Dashboard
+
+         1. Clone the repository
+         ```bash
+
+         git clone https://github.com/Josephine-analyst/Call-Center-Analysis-Project.git
+
+        2. Open CALL CENTER ANALYSIS PROJECT.pbix in Power BI Desktop
+        3. If data doesn't load automatically:
+        4. Go to Home → Transform data
+        5. Update the source path to point to data/call-center-data.xlsx (recommended to add this file)
+        6. Use the Agent and Month slicers to filter interactively
+
  
-### CONCLUSION
-    This analysis reveals a clear picture of operational dynamics, highlighting opportunities to enhance efficiency, customer satisfaction and agent
-    performance.The visualizations and underlying data are accessible via the 
+   ### CONCLUSION
+       This analysis reveals a clear picture of operational dynamics, highlighting opportunities to enhance efficiency, customer satisfaction and agent
+       performance.The visualizations and underlying data are accessible via the 
+    
  <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/a9b482bd-570d-4ff6-8287-e89d2918d143" />
 
      
