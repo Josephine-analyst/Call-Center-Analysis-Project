@@ -9,12 +9,11 @@
 
 ### BUSINESS OBJECTIVES
     Transform raw call center data into actionable insights to:
-    - Optimize agent workload distribution
-    - Improve first-contact resolution rates
-    - Increase overall customer satisfaction
-    - Identify training needs and peak call patterns
-    - Reduce operational costs through better resource planning
-
+    - Track daily/weekly call volume and peak hours
+    - Measure CSAT, AHT, FCR (First Call Resolution), abandonment rate
+    - Identify top call reasons and low-performing agents
+    - Provide actionable recommendations for ops improvement
+    
 ### TECHNOLOGY & TOOLS USED
     - **Data Source** — Excel (.xlsx)
     - **Data Transformation** — Power Query
