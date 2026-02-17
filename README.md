@@ -4,7 +4,8 @@
 ## PROJECT DESCRIPTION
    This project aims to optimize call center operations by leveraging data analytics to enhance efficiency, improve customer satisfaction and reduce operational costs. By analyzing key performance metrics, customer interactions and agent performance, the project will provide actionable insights to drive data-informed decision-making.
    
- ![Main Dashboard Overview](Screenshot%20(63).png)](Screenshot%20(63).png)
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/a9b482bd-570d-4ff6-8287-e89d2918d143" />
+
 
 ### BUSINESS OBJECTIVES
     Transform raw call center data into actionable insights to:
