@@ -130,9 +130,9 @@
 
  
    ### CONCLUSION
-       This analysis reveals a clear picture of operational dynamics, highlighting opportunities to enhance efficiency, customer satisfaction and agent performance.The visualizations and underlying data are accessible via the dashboard
-    
- 
+      This call center analysis provides a clear view of operational dynamics, revealing workload imbalances, CSAT variations across agents, dominant call drivers (Technical           Support and Payment Issues), and resolution effectiveness gaps. Key opportunities include redistributing high-volume shifts, delivering targeted training (especially for         agents handling complex issues), and improving processes/documentation for top call reasons to boost first-contact resolution rates and overall customer satisfaction.
+      By addressing these insights—such as Jim's heavy workload, Joe's lower CSAT, and low-resolution categories—the call center can enhance agent performance, reduce                  operational costs, and drive better customer experience in high-volume environments.
+      The full interactive dashboard, metrics, and source data are available in the .pbix file for deeper exploration.
      
     
         
