@@ -130,10 +130,9 @@
 
  
    ### CONCLUSION
-       This analysis reveals a clear picture of operational dynamics, highlighting opportunities to enhance efficiency, customer satisfaction and agent performance.The visualizations and underlying data are accessible via the 
+       This analysis reveals a clear picture of operational dynamics, highlighting opportunities to enhance efficiency, customer satisfaction and agent performance.The visualizations and underlying data are accessible via the dashboard
     
- <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/a9b482bd-570d-4ff6-8287-e89d2918d143" />
-
+ 
      
     
         
